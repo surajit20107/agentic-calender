@@ -1,3 +1,4 @@
+import SignInComponent from "@/components/auth/sign-in"
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Sparkles } from "lucide-react"
 
@@ -16,6 +17,8 @@ function SignInPage() {
             Sign in to your account
           </CardDescription>
         </CardHeader>
+        
+        <SignInComponent />
       </Card>
     </main>
   )
